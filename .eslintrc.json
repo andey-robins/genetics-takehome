@@ -1,0 +1,10 @@
+{
+  "extends": "./node_modules/gts/",
+  "plugins": ["jest", "eslint-plugin-jest"],
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "node/no-unpublished-import": "off"
+  }
+}
