@@ -18,5 +18,8 @@
     "pretest": "npm run compile",
     "posttest": "npm run lint",
     "test": "jest"
+  },
+  "dependencies": {
+    "@stdlib/random-base-triangular": "^0.0.6"
   }
 }
